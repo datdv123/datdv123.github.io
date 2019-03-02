@@ -1,0 +1,135 @@
+body{
+	font-family:Myriad Pro;
+	color: #561e02;
+	
+	
+}	
+#contaniner{
+	display: flex;
+	flex-direction: column;
+	height: 1500px;
+	width: auto;
+
+}
+#part1{
+	flex: 1;
+	display: flex;
+	background-image: url("img.png");
+	background-position: center;
+	background-size: cover;
+	border-bottom: 1px white solid;
+	box-shadow: 2px 0 0 0 grey;
+	
+
+}
+#part1_1{
+	flex: 1;
+	background-color: black;
+	margin:30px 50px 30px 50px;
+	opacity:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	
+}
+#part1_1:hover{
+	opacity:0.3;
+}
+
+#part2{
+	flex: 1;
+	display: flex;
+	margin-right: 15%;
+	margin-left: 15%;
+
+	font-size: 22px;
+	
+	
+}
+#prt2{
+	flex: 1;
+	display: flex;
+	background-image: url("./images/bg3.jpg");
+	box-shadow: 2px 2px 2px grey;
+	border: 1px solid #ddd;	
+	background-position: center;
+	background-size: cover;
+
+}
+.part3{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/bg.jpg");
+	box-shadow: 2px 2px 2px grey;
+	border: 1px solid #ddd;	
+	background-position: center;
+	background-size: cover;	
+}
+.cl{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+	
+}
+.cl:hover{
+ transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+background-color:#f7cf0373 ;	
+}
+.cl1{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+	
+}
+.cl1:hover{
+ transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+	
+}
+ul{
+list-style: none;
+}
+.part3 img{
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+
+}
+.part3 img:hover
+    {
+ box-shadow: 1px 1px 1px #f28003;
+
+  }
+ .part4{
+ 	width:auto;
+ 	height: 80px;
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #f28003;
+ 	flex-direction: column;
+ }
+
