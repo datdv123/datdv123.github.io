@@ -84,6 +84,19 @@ background-color: #e1c4e275;
 a:hover{
 	color:#e1c4e275 ;
 }
+.header{
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;	
+}
+.header:hover{
+transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+}
 
 
 
