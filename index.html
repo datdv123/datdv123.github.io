@@ -1,47 +1,261 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>HomePage</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
 </head>
 <body>
-	
-	<div id="page1">
-		<div id="const">
-		<div id="pp1">
-			<div class="header">
-				<img src="toto.png" width="100px"  />
-				<a href="index.html"><img src="logo.png" href="index.html"  /></a>				
-			</div>
-			<div class="menu">	
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>	
-	        </div>	
-		</div>		
-		<div class="title">
-		<p align="center">Information of members</p>
 
-		</div>
-		<div id="pp2">
-			<div class="memmber">
-				<a href="./duongvandat/duongvandat.html" align="center" target="_blank"><img src="./members/DVD.png" width="80%" title="Dương Văn Đạt"></a>
-				
-			</div>
-			<div class="memmber">
-				<a href="./letiendat/index.html" align="center" target="_blank"><img src="./members/LTD.png" width="80%" title="Lê Tiến Đạt"></a>
-			</div>
-			<div class="memmber">
-				<a href="./phanduyduc/index.html" align="center" target="_blank"><img src="./members/PDD.png" width="80%" title="Phan Duy Đức"></a>
-			</div>
-			<div class="memmber">
-				<a href="./datmam/datmam.html" align="center" target="_blank"><img src="./members/PTD.png" width="80%" title="Phạm Thành Đạt"></a>
-			</div>
-			<div class="memmber">
-				<a href="./tranquocduc/gioithieu.html" align="center" target="_blank"><img src="./members/TQD.png" width="80%" title="Trần Quốc Đức"></a>
-			</div>
-		</div>
-	</div>
-	</div>
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Trang chủ</a></li>
+        <li><a href="#section">Giới thiệu</a></li>
+        <li><a href="#section0">Khuyến mãi</a></li>
+        <li><a href="#section1">Tin tức</a></li>
+        <li><a href="#section2">Sản phẩm khác</a></li>
+        <li><a href="#section3">Liên hệ</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="row">
+      <video width="100%" autoplay loop muted >
+       <source src="video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+</video>
+</div>
+  
+<div class="text-center">
+  <h2>Giới thiệu</h2>
+  <div  id="section" class="backsec">
+    <div class="row align-content-md-center">
+    <div class="col-sm-2" id="bkl"></div>
+      <div class="col-sm-8">
+        
+        <br>
+        <div class="text-center">
+          <img src="logo.png" width="200px" >
+          <h2 class="text-center"> Mỹ phẩm Hàn Quốc</h2>
+        <br>
+        <p> Mỹ phẩm cao cấp Hàn Quốc dưỡng trắng da, chống nắng, đặc trị mụn. K.SANG đang được người tiêu dùng ưa chuộng tại nhiều nước như Nhật Bản,Trung Quốc, Nga…</p><br>
+      <p>
+        Làm sạch bụi bẩn ở bên ngoài, tẩy đi lớp tế bào chết làm se khít lỗ chân lông. Cân bằng nồng độ PH, bổ sung dưỡng chất cho da, giữ ẩm, ngăn cản sự hình thành của các hắc sắc tố, cho làn da trắng hồng tươi tắn tự nhiên.
+      </p><br>
+      </div>
+    </div>
+      <div class="col-sm-2" id="bkr"></div>
+  </div> 
+</div>
+  <h2 >Sản phẩm khuyến mãi </h2>
+<div  id="section0" class="backsec">
+  <div class="row">
+    <div class="col-sm-4">     
+      <a href=""> <img src="./images2/a5.png" class="img-rounded" style="width:50%" alt="Image"></a>
+      <p style="padding-top:10px">CC Cream – Kem nền chống nắng CC</p>
+      <p>100 000 VND</p>
+    </div>
+    <div class="col-sm-4"> 
+      <a href=""><img src="./images2/a6.png" class="img-rounded" style="width:50%" alt="Image"></a>
+      <p style="padding-top:10px">Whitening Essence – Tinh chất dưỡng trắng da</p>
+      <p>100 000 VND</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>20% - 30%</p>
+      </div>
+      <div class="well">
+       <p>Áp dùng từ 15/04/2019 đến hết 27/05/2019</p>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-4">
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:50%" alt="Image"></a>
+      <p style="padding-top:10px">Sữa dưỡng trắng da – Whitening Emulsion</p>
+      <p>100 000 VND</p>
+    </div>
+    <div class="col-sm-4"> 
+      <a href=""> <img src="./images2/a3.png" class="img-rounded" style="width:50%" alt="Image"></a> 
+      <p style="padding-top:10px">Whitening Toner – Nước hoa hồng dưỡng trắng da</p> 
+      <p>100 000 VND</p>   
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>20% - 30%</p>
+      </div>
+      <div class="well">
+       <p>Áp dùng từ 15/04/2019 đến hết 27/05/2019</p>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>Tin tức</h2>
+<div  id="section1" class="backsec">
+<div class="row"> 
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./images/bk5.png" alt="Image" >
+          <div class="carousel-caption">
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="./images/slide1.png" alt="Image">
+          <div class="carousel-caption">
+          </div>      
+        </div>
+         </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+      <p>
+        Mỹ Phẩm K.SANG<br>
+        K.SANG là thương hiệu Mỹ phẩm cao cấp Hàn Quốc dưỡng trắng da, chống nắng, đặc trị mụn. K.SANG đang được người tiêu dùng ưa chuộng tại nhiều nước như Nhật Bản,Trung Quốc, Nga…
+        </p>
+    </div>
+  <div class="well">
+       <p>Xem thêm...</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="container text-center">    
+  <h2>Sản phẩm khác</h2>
+  <br>
+<div  id="section2" class="backsec">
+<div class="row">
+    <div class="col-sm-3">      
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Whitening Peeling Gel – Gel tẩy da chết</p>
+    </div>
+    <div class="col-sm-3"> 
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Whitening Day and Night Cream – Kem dưỡng trắng da ngày và đêm</p>    
+    </div>
+    <div class="col-sm-3">
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Trị mụn kết hợp – Clean Lab PH Balance Essence Và Clean Lab PH Balance Cream</p>
+    </div>
+    <div class="col-sm-3"> 
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Sữa dưỡng thể làm trắng da – Whitening Body Lotion</p>    
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">      
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Whitening Peeling Gel – Gel tẩy da chết</p>
+    </div>
+    <div class="col-sm-3"> 
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Whitening Day and Night Cream – Kem dưỡng trắng da ngày và đêm</p>    
+    </div>
+    <div class="col-sm-3">
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Trị mụn kết hợp – Clean Lab PH Balance Essence Và Clean Lab PH Balance Cream</p>
+    </div>
+    <div class="col-sm-3"> 
+      <a href=""><img src="./images2/a3.png" class="img-rounded" style="width:100%" alt="Image"></a>
+      <p>Sữa dưỡng thể làm trắng da – Whitening Body Lotion</p>    
+    </div>
+</div>
+    </div>
+  <h2 >Liên hệ</h2>
+  <div  id="section3" class="backsec">
+    
+    <div class="row">
+    <div class="col-sm-5">
+      <p>Liên hệ 24/14</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Vinh, Nghệ An</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +123456789</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myphamhan@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Tên" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Gửi</button>
+        </div>
+    </div>
+</div>
+</div>
+
+  </div>
+</div><br>
+<footer class="container-fluid text-center backsec " style="background-color:#220000">
+  <p>Design by Dat Duong</p>
+</footer>
 
 </body>
 </html>

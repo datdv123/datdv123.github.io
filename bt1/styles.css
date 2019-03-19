@@ -1,0 +1,103 @@
+#const{
+	position: fixed;
+}
+#page1 {
+ background-image: url("city.png"); 
+ background-size:cover;
+ background-repeat: no-repeat;
+ height: 1080px;
+ flex-direction: row;
+
+}
+#pp1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header{
+flex: 1;
+width:auto;
+}
+.menu{
+	flex: 1;
+	width: auto;
+	padding-top:20px ;
+}
+ a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	padding: 10px 10px 0 0;
+	font-family:Comic Sans MS;
+}
+.title p{
+	color: white;
+	padding: 10px 10px 0 0;
+	font-family:Comic Sans MS;
+	font-size: 30px;
+
+}
+#pp2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:10%;
+	margin-right:10%;
+
+}
+.memmber{
+	flex: 1;
+	display: flex;
+	height: 280px;
+	border: 1px white solid;
+	margin-right:20px;
+	justify-content: center;
+	align-items: center;
+	background-image: url("bg.png");
+	background-size:cover;
+	background-position: center center;
+}
+.memmber img{
+border: 2px white solid;
+border-radius: 100%;
+
+}
+.memmber {
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-webkit-box-shadow: 0 10px 6px -6px #F9A8FF;
+-moz-box-shadow: 0 10px 6px -6px #F9A8FF;
+box-shadow: 0 10px 6px -6px #F9A8FF;
+}
+.memmber:hover {
+transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+background-color: #e1c4e275;
+
+}
+a:hover{
+	color:#e1c4e275 ;
+}
+.header{
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;	
+}
+.header:hover{
+transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+}
+
+
+
+
