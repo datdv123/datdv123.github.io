@@ -9,6 +9,9 @@ body{
 .well{
 	background-color: #32070752;
 	margin-right: 5px;
+	border-style: dashed;
+    border-width: 1px;
+    border-color: #5a4747;
 	
 }
 a{
@@ -56,11 +59,11 @@ background-color: #ffabab70;
 	background-repeat: no-repeat;
 }
 .backsec{
-	   background-color: black;
-       background: linear-gradient(#220000,black);
-       border-style: dashed;
-       border-width: 2px;
-       border-color: black;
+	   background-color: #5d0505;
+       background: linear-gradient(#5d0505,#220000);
+       border-style: double;
+       border-width: 4px;
+       border-color: #9c1405;
 
 }
 .row{
