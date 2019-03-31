@@ -1,9 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root>
-	<person>
-		hello
-	</person>
-		<person>
-		hello
-	</person>
+<root>	
+		hello	
 </root>
