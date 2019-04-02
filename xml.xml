@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <root>	
-	<category>
-		<food>		
-			<idC>1</idC>
-			<name>Ẩm thực</name>
-		</food>
-		<new>
-			<idC>2</idC>
-			<name>Ẩm thực</name>	
-		</new>
-	</category>
-	<post>
-		<part>
-			<idP>0</idP>
-			<idC>1</idC>
-			<img>https://vtv1.mediacdn.vn/thumb_w/640/2018/12/26/5-1545817876434147998168.jpg</img>
-			<content>Đã xác định danh tính công ty đứng sau phóng sự dàn dựng mạo danh Đài THVN</content>
-		</part>
-	</post>
+<word>
+	<id>1</id>
+	<vn>cut</vn>
+	<en>cắt</en>
+</word>
+<word>
+	<id>2</id>
+	<vn>eat</vn>
+	<en>ăn</en>
+</word>
 </root>
