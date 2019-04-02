@@ -1,11 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <root>	
-		<person>
-			<name rank="1" sex="0">Nguyến Văn A</name>
-			<age>18</age>
-		</person>
-		<person>
-			<name rank="1" sex="1">Nguyến Văn B</name>
-			<age>22</age>
-		</person>
+	<category>
+		<food>		
+			<idC>1</idC>
+			<name>Ẩm thực</name>
+		</food>
+		<new>
+			<idC>2</idC>
+			<name>Ẩm thực</name>	
+		</new>
+	</category>
+	<post>
+		<part>
+			<idP>0</idP>
+			<idC>1</idC>
+			<img>https://vtv1.mediacdn.vn/thumb_w/640/2018/12/26/5-1545817876434147998168.jpg</img>
+			<content>Đã xác định danh tính công ty đứng sau phóng sự dàn dựng mạo danh Đài THVN</content>
+		</part>
+	</post>
 </root>
