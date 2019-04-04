@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root>	
-<word>
-	<id>1</id>
-	<vn>cut</vn>
-	<en>cắt</en>
-</word>
-<word>
-	<id>2</id>
-	<vn>eat</vn>
-	<en>ăn</en>
-</word>
-</root>
+<message>
+	<title>
+		Làm gì hôm nay !
+	</title>
+	<date>
+		20/09/2018
+	</date>
+	<vsdate>
+	Ngày: Tân Mùi, Tháng: Đinh Mão
+	Giờ: Mậu Tý, Tiết: Xuân phân
+	Là ngày: Kim Đường Hoàng Đạo, Trực: Định	
+	</vsdate>
+	<word>
+		Nên: Cúng tế, cầu phúc, cầu tự, họp mặt, đính hôn, ăn hỏi, cưới gả, nhận người, động thổ, đổ mái, sửa kho, ký kết, giao dịch, nạp tài
+		Không nên: Giải trừ, chữa bệnh, thẩm mỹ
+	</word>
+
+</message>
